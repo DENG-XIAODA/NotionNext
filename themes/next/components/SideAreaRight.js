@@ -31,7 +31,8 @@ const SideAreaRight = (props) => {
 
         {siteConfig('NEXT_RIGHT_AD', null, CONFIG) && <Card className='mb-2'>
             {/* 展示广告  */}
-            <ins
+            <span>暂无</span>
+            {/* <ins
                 className='adsbygoogle'
                 style={{ display: 'block' }}
                 data-adtest='on'
@@ -39,7 +40,7 @@ const SideAreaRight = (props) => {
                 data-ad-slot='8807314373'
                 data-ad-format='auto'
                 data-full-width-responsive='true'
-            />
+            /> */}
         </Card>}
 
         <div className="sticky top-0 space-y-4 w-full">
