@@ -211,6 +211,13 @@ const BLOG = {
   MUSIC_PLAYER_AUDIO_LIST: [
     // 示例音乐列表。除了以下配置外，还可配置歌词，具体配置项看此文档 https://aplayer.js.org/#/zh-Hans/
     {
+      name: 'oblivious',
+      artist: 'Kalafina',
+      url: 'https://music.163.com/song/media/outer/url?id=1322356611.mp3',
+      cover:
+            'http://p2.music.126.net/LwisuwyurwWs3zpkoBIC9g==/109951167953835736.jpg'
+    },
+    {
       name: '认真地老去',
       artist: '张希 / 曹方',
       url: 'https://music.163.com/song/media/outer/url?id=461080452.mp3',
