@@ -215,7 +215,7 @@ const BLOG = {
       artist: 'Kalafina',
       url: 'https://music.163.com/song/media/outer/url?id=1322356611.mp3',
       cover:
-            'http://p2.music.126.net/LwisuwyurwWs3zpkoBIC9g==/109951167953835736.jpg'
+            'http://p1.music.126.net/1dX_rKMo0rdQTWxAehqI5w==/109951167953835736.jpg'
     },
     {
       name: '认真地老去',
