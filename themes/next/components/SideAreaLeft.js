@@ -66,10 +66,10 @@ const SideAreaLeft = props => {
                 </Tabs>
             </Card>
 
-            <div className='flex justify-center'>
+            {/* <div className='flex justify-center'>
                 {slot}
                 <Live2D />
-            </div>
+            </div> */}
         </div>
 
     </aside>

@@ -9,6 +9,7 @@ import dynamic from 'next/dynamic'
 import Announcement from './Announcement'
 import LatestPostsGroup from './LatestPostsGroup'
 import { siteConfig } from '@/lib/config'
+import Live2D from '@/components/Live2D'
 const NextRecentComments = dynamic(() => import('./NextRecentComments'))
 
 /**
@@ -47,6 +48,10 @@ const SideAreaRight = (props) => {
             {announcementVisible && <Card>
                 <Announcement post={notice} />
             </Card>}
+            <div className='flex justify-center'>
+                {slot}
+                <Live2D />
+            </div>
 
             {siteConfig('NEXT_RIGHT_LATEST_POSTS', null, CONFIG) && <Card><LatestPostsGroup latestPosts={latestPosts} /></Card>}
             {slot}
